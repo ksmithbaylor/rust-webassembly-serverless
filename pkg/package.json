@@ -1,0 +1,14 @@
+{
+  "name": "rust-lambda",
+  "collaborators": [
+    "Colin Eberhardt <colin.eberhardt@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "rust_lambda_bg.wasm",
+    "rust_lambda_bg.js",
+    "rust_lambda.d.ts"
+  ],
+  "main": "rust_lambda.js",
+  "types": "rust_lambda.d.ts"
+}
