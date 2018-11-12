@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head><title>Rust on Netlify!</title></head>
+  <body>
+    <h1>Open the console!</h1>
+    <script type="text/javascript">
+      fetch('/.netlify/functions/rust_lambda')
+        .then(res => res.text())
+        .then(text => document.write('Received: ' + text))
+        .catch(err => console.error(err));
+    </script>
+  </body>
+</html>
